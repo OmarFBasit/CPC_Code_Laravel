@@ -7,15 +7,15 @@ I have created two functions inside HomeController. The user will enter the defa
 
 ![This is an image](readme_image/2.png)
 
--These calculation data have been transferred to the home page. The following image shows the home page UI.
+- These calculation data have been transferred to the home page. The following image shows the home page UI.
 
 ![This is an image](readme_image/3.png)
 
--And the result is the output page.
+- And the result is the output page.
 
 ![This is an image](readme_image/4.png)
 
-###And another example is given below.
+######And another example is given below.
 
 ![This is an image](readme_image/5.png)
 
