@@ -3,6 +3,8 @@
 <head>
 	<title>Calculator Project</title>
 
+	<!-- bootsrap css join -->
+
 	<link href="{{asset('frontend/a1/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('frontend/a1/css/forumcss1.css')}}" rel="stylesheet">
 
@@ -10,16 +12,21 @@
 </head>
 <body>
 
+<!-- Output page UI Design -->
 
   <div class="form-body">
 <div class="row">
 <div class="form-holder">
   <div class="form-content">
       <div class="form-items">
+
+      	<!-- result showing page -->
           
-          <p>Total Calculation Result = {{$tot}} </p>
+          <p>Total Calculation Result  = {{$tot}} </p>
           <p>Actual Result = {{$C}} </p>
 
+
+<!-- correct or not correct condition -->
           <?php
 
 if ($tot==$C) {
@@ -39,9 +46,7 @@ else {
 }
 ?>
 
-
-          
-            
+           
       </div>
   </div>
 </div>
