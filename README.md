@@ -14,6 +14,11 @@ I have created two functions inside HomeController. The user will enter the defa
 
 ![This is an image](readme_image/3.png)
 
+- Take the input field for the operand and the selection field for the operator. The operator selection options are shown in detail in the image below.
+
+![This is an image](readme_image/7.png)
+
+
 - And the result is the output page.
 
 ![This is an image](readme_image/4.png)
