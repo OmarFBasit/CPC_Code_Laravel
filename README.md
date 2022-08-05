@@ -35,9 +35,9 @@ I have created two functions inside HomeController. The user will enter the defa
 - Go to the folder application using cd command on your cmd or terminal
 - Run composer install on your cmd or terminal
 - Copy .env.example file to .env on the root folder. You can type copy .env.example .env if using command prompt Windows or cp .env.example .env if using terminal, Ubuntu
-Open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your configuration.
+Open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your configuration.(**The database is not used in this project so the database name should not be changed.**)
 
 - Run php artisan key:generate
-- Run php artisan migrate
+- Run php artisan migrate (If use DB)
 - Run php artisan serve
 - Go to http://localhost:8000/
